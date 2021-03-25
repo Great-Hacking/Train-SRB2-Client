@@ -3,13 +3,15 @@ The official open-source hack for SRB2.
 
 
 # Added
-...
+- New form GUI
+- A new improved train memory.dll, the original code is from [Memory.dll](https://github.com/Sadulisten/memory.dll), go support them!
 
 # Updated
-...
+- Form GUI
+- Console GUI
 
 # Fixed
-...
+- Having to download a .zip
 
 # About
 ```
