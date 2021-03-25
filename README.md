@@ -13,4 +13,5 @@ The official open-source hack for SRB2.
 
 # About
 ```
-This hack is made with C# and by Lapide, and it's open-source.
+This hack is made with C# and by Lapide, and it's open-source. But not for long.
+```
