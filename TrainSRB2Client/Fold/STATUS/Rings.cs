@@ -1,5 +1,5 @@
-﻿using GMA;
-using System;
+﻿using System;
+using Memory;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,7 +9,7 @@ namespace TrainSRB2Client.STATUS
     {
         public void rings()
         {
-            Mod m = new Mod();
+            Mem m = new Mem();
             bool check = m.OpenProcess("srb2win");
 
             if (!check)

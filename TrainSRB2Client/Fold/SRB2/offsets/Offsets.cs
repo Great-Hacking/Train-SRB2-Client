@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace offsets
+namespace TrainSRB2Client.SRB2.offsets
 {
-    // Offsets found by Lapide.
     class Offsets
     {
         public string rings = "base+55EC8D8";
@@ -39,9 +38,6 @@ namespace offsets
         public string pause = "srb2win.exe+42E118";
         public string spectating = "059F0DA8";
         public string fov = "base+2BB836";
-        public string airDashSpeed = "base+55EC97A";
-        public string speed = "base+55EC952";
-        public string beforeSpeed = "059EC95A";
         public string camSpeed = "base+2A9656";
     }
 }

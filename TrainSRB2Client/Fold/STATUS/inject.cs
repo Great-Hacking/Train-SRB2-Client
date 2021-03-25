@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Diagnostics;
-using TrainSRB2Client.FRF;
+using Memory;
 using System.Threading;
-using GMA;
-
 namespace TrainSRB2Client.STATUS
 {
     class Inject
@@ -13,20 +10,17 @@ namespace TrainSRB2Client.STATUS
         public void attach()
         {
             Console.WriteLine("Starting...");
-            Mod m = new Mod();
+            Mem m = new Mem();
             bool  b= m.OpenProcess("srb2win");
             if (!b)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Failed to start.");
-                Thread.Sleep(3000);
-                Environment.Exit(0);
+                Thread.Sleep(5000);
+                Environment.Exit(1);
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Started!");
-                Console.ForegroundColor = ConsoleColor.Gray;
             }
         }
     }

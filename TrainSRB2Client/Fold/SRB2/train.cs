@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text;
-using GMA;
+using Memory;
 using TrainSRB2Client.STATUS;
 using System.Diagnostics;
 namespace TrainSRB2Client.SRB2

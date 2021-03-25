@@ -8,7 +8,6 @@ using System.Threading;
 using System.Text;
 using TrainSRB2Client.SRB2.Game;
 using System.Diagnostics;
-using Xamarin.Forms;
 using TrainSRB2Client.SRB2;
 using TrainSRB2Client.SRB2.offsets;
 using TrainSRB2Client.STATUS;
@@ -19,6 +18,7 @@ namespace TrainSRB2Client
 {
     public partial class TrainFormMenu : Form
     {
+
         TrainMenu menu = new TrainMenu();
         TrainConsole console = new TrainConsole();
         Train train = new Train();
@@ -42,7 +42,7 @@ namespace TrainSRB2Client
 
         private void TrainFormMenu_Load(object sender, EventArgs e)
         {
-            CheckForIllegalCrossThreadCalls = false;
+            
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -58,18 +58,6 @@ namespace TrainSRB2Client
         private void Async_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             Async.RunWorkerAsync();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            int value = Int32.Parse(textBox2.Text);
-            game.setSpeed(value);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            int value = Int32.Parse(textBox3.Text);
-            game.setScore(value);
         }
     }
 }
