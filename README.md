@@ -25,3 +25,9 @@ This hack is made with C# and by Lapide, and it's open-source. But not for long.
 # Creators
 - [Jisk](https://www.youtube.com/channel/UC121oVv6x2HsXjFc-U97MSg) (Not Really A Creator But Okay)
 - [Lapide](https://www.youtube.com/channel/UCL3XW3JfhRCZpeHJOFAV56Q) (Coding)
+
+
+# How To Install
+- Go to [Releases](https://github.com/Great-Hacking/Train-SRB2-Client/releases)
+- Download the latest version
+- And you're all set!
