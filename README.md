@@ -1,3 +1,6 @@
+# WARNING
+SRB2 v.2.2.9 or above is NOT supported. Only SRB2 v2.2.8 is supported.
+
 # Train-SRB2-Client
 The official open-source hack for SRB2.
 
